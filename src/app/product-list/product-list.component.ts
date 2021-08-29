@@ -9,6 +9,9 @@ import { products } from '../products';
 export class ProductListComponent implements OnInit {
   productsInside = products;
   constructor() {}
+  share(){
+    window.alert("Product details shared !")
+  }
 
   ngOnInit() {}
 }
